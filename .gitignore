@@ -1,0 +1,6 @@
+*.log
+CURRENT_IMAGE.txt
+CURRENT_URL.txt
+RENDER_URL.txt
+keepalive-state.json
+node_modules/

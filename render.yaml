@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ikora-review-panel
+    runtime: docker
+    plan: free
+    healthCheckPath: /health
+    envVars:
+      - key: PORT
+        value: "10000"
+      - key: REVIEW_USER
+        value: apple
+      - key: REVIEW_PASS
+        value: ReviewIkora2026
